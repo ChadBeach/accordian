@@ -1,0 +1,39 @@
+.accordion {
+   margin: 50px;
+   dt, dd {
+     margin-bottom: 20px;
+      width: 475px;
+      height: 20px;
+      margin-left: 0px;
+      margin-top: -5px;
+      &:last-of-type
+
+      {
+
+
+      }
+      a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        background-color: lightblue;
+        border: 1px solid black;
+      }
+   }
+  dd {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+     font-size: 15px;
+     font-style: none;
+     color: grey;
+     &:last-of-type {
+       position: relative;
+
+     }
+   }
+}
